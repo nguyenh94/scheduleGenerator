@@ -12,7 +12,7 @@ def home():
     return render_template("index.html")
 
 def retrieve_classes():
-    '''return a list of class objects'''
+    """return a list of class objects"""
 
 
 @app.route('/<path:path>')

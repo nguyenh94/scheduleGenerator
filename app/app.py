@@ -11,6 +11,9 @@ def home():
     '''route to the homepage'''
     return render_template("index.html")
 
+def retrieve_classes():
+    '''return a list of class objects'''
+
 @app.route('/<path:path>')
 def catch_all(path):
     '''catch errors and redirect to home page'''

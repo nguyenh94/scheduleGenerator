@@ -3,7 +3,7 @@ class Course(object):
                  units_param, prereq_param, lecture_sections_param,
                  lab_sections_param, quiz_sections_param, discussion_sections_param):
         """Constructs a new Course object
-        Parameters: 6
+        Parameters: 9
         id: id of the course such as 103 (int)
         title: title of the course such Introduction to Programming (string)
         description: description of the course (string)
